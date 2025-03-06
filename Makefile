@@ -111,7 +111,7 @@ L_BUILTINS = $(BUILTINS_FOLD)/libbuiltins.a
 all: $(OBJSFOLDER) $(LIBFT) $(NAME)
 
 $(LIBFT):
-	@echo "Compiling libft..."
+	@echo "Compiling libft.."
 	@make -C src/libft
 
 $(OBJSFOLDER):
